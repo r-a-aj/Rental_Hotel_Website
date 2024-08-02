@@ -1,0 +1,96 @@
+.checkout {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .checkout-confirmation {
+    text-align: center;
+  }
+  
+  .checkout-confirmation h2 {
+    color: #27ae60;
+  }
+  
+  .checkout-confirmation button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .checkout-confirmation button:hover {
+    background-color: #0056b3;
+  }
+  
+  .checkout-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkout-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .error {
+    color: #e74c3c;
+    font-size: 12px;
+  }
+  
+  .form-summary {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .submit-button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .submit-button:hover {
+    background-color: #219150;
+  }
+  
+  .back-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .back-button:hover {
+    background-color: #c0392b;
+  }
+  

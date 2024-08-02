@@ -1,0 +1,110 @@
+.cart {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cart-img-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cart-img {
+  width: 300px;
+  height: auto;
+}
+
+.cart p {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cart-item {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.cart-item-image img {
+  width: 500px;
+  height: 300px;
+}
+
+.cart-item-details {
+  margin-left: 20px;
+}
+
+.cart-total {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.property-item {
+  display: flex;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.property-image {
+  width: 150px;
+  height: 150px;
+}
+
+.property-info {
+  margin-left: 20px;
+}
+
+.amenities {
+  display: flex;
+  gap: 5px;
+}
+
+.amenity {
+  background-color: #f0f0f0;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.book-room {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.book-room:hover {
+  background-color: #0056b3;
+}
+
+.remove-button {
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.paynow-button {
+  background-color: #d4af37;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.cart-item-details h3 {
+  color: #0056b3;
+  font-size: 24px;
+}
+
+.cart-item-details p {
+  color: green;
+}

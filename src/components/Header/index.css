@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: azure;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  .nav a:hover {
+    color: #d4af37;
+    text-decoration: underline;
+  }
+  
+  .book-now {
+    background-color: #d4af37;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  
+  .hotel-name {
+    font-family: 'sans-serif';
+    font-size: 16px;
+    font-weight: 500;
+    color: #054f9e;
+  }
+
+  .nav .home {
+    color: #d4af37;
+  }

@@ -1,0 +1,49 @@
+.hero-section {
+    position: relative;
+    background-image: url('https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?cs=srgb&dl=pexels-pixabay-258154.jpg&fm=jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    height: 89.5vh;
+    color: white;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-book-now {
+    background-color: #d4af37;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
+  .booking-form-container {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+  }
+
+  .heading {
+    font-size: 2px;
+  }
+  

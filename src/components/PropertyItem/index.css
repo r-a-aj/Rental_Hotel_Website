@@ -1,0 +1,56 @@
+.property-item {
+    display: flex;
+    gap: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: azure;
+  }
+  
+  .property-item .property-image {
+    width: 330px;
+    height: 220px;
+    /* object-fit: cover; */
+    border-radius: 5px;
+  }
+  
+  .property-info {
+    flex: 1;
+  }
+  
+  .property-info h2 {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .property-info p {
+    margin: 10px 0;
+  }
+  
+  .property-price {
+    font-size: 1.2rem;
+    color: green;
+  }
+  
+  .amenities {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+  
+  }
+  
+  .amenities .amenity {
+    background-color: yellowgreen;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .book-room {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
